@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
+  output: "export",
+  distDir: "../backend/views",
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
