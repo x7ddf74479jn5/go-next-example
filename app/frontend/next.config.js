@@ -5,6 +5,7 @@ const nextConfig = {
   },
   output: "export",
   distDir: "../backend/views",
+  assetPrefix: process.env.STATIC_FILE_URL,
 };
 
 module.exports = nextConfig;
